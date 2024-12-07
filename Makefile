@@ -1,0 +1,7 @@
+CONTIKI_PROJECT = main
+
+PROJECT_SOURCEFILES += SSD_1306_CC2538.c fonts.c
+
+all: $(CONTIKI_PROJECT)
+CONTIKI = ..
+include $(CONTIKI)/Makefile.include
